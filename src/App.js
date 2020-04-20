@@ -15,14 +15,17 @@ import 'firebase/auth';
 import firebaseConfig from './configs/firebase';
 
 // Pornind de la obiectul de configurare, trebuie sa initializam aplicatia de firebase,
-// folosind metoda initializaApp, pe care firebase ne-o pune la dispozitie.
+// folosind metoda initializeApp, pe care firebase ne-o pune la dispozitie.
 const firebaseApp = firebase.initializeApp(firebaseConfig);
+//parametrul firebaseConfig este obj cu datele personale definit in fisierul firebase.js
 // Dupa ce initializam aplicatia de firebase, putem sa ne folosim de metodele de autentificare, pe care aceasta
 // ne-o pune la dispozitie.
 const firebaseAppAuth = firebaseApp.auth();
 // In cazul in care folosim provideri externi pentru autentificare, trebuie sa cream un nou obiect corespunzator.
 const providers = {
   googleProvider: new firebase.auth.GoogleAuthProvider(),
+  facebookProvider: new firebase.auth.FacebookAuthProvider()
+
 };
 
 class App extends React.Component {
@@ -50,6 +53,7 @@ class App extends React.Component {
               // Trebuie sa trimitem mai departe metoda signInWithGoogle, furnizata de Firebase, pentru
               // a fi apelata din pagina de login.
               signInWithGoogle={this.props.signInWithGoogle}
+              signInWithFacebook={this.props.signInWithFacebook}
             />}
           />
           <Route
