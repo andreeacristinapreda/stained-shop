@@ -17,14 +17,10 @@ class Home extends React.Component{
     }
 
     render() {
-        // Preluam props-urile de interes.
-        const {user, signOut} = this.props;
-
+       
         return(
-            // Pasam props-urile mai departe, catre Layout.
+            
             <Layout
-                user={user}
-                signOut={signOut}
             >
                 <div className="container-fluid container-min-max-width">
                     <div className="row">
