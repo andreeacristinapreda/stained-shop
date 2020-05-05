@@ -4,13 +4,13 @@ import {connect} from 'react-redux';
 import {addToCart} from '../../redux/cart/cartActions';
 import {addToFavourites} from '../../redux/favourites/favouritesActions';
 import {ReactComponent as AddToFavourites} from '../../assets/icons/heart-empty.svg';
-
+import {Link} from 'react-router-dom';
 
 function ProductItem(props) {
-    const {id,name, price, currency, image, addToCart, addToFavourites} = props;
+    const {id, name, price, currency, image, addToCart, addToFavourites} = props;
 
     return(
-        <div className="product-item col-4 d-flex flex-column align-items-center">
+        <div className="product-item col-12 col-md-4 d-flex flex-column align-items-center">
             <div className="w-75 d-flex justify-content-end">
                     <div
                         onClick={()=>{
@@ -27,10 +27,11 @@ function ProductItem(props) {
                     </div>
 
             </div>
-           
-            <img src={image} alt="productPhoto" className="mb-2"/>
-            <p className="mb-1 text-center">{ name }</p>
-            <p className="text-center">{ price + currency }</p>
+            <Link to = {`/product/${id}`}>
+                <img src={image} alt="productPhoto" className="mb-2"/>
+                <p className="mb-1 text-center">{ name }</p>
+                <p className="text-center">{ price + currency }</p>
+            </Link>
 
                 <button 
                     className="btn btn-outline-dark" 

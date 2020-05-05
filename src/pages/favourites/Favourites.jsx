@@ -35,6 +35,7 @@ const {favouriteProducts, removeFromFavourites, id, name, price, currency, image
                                             currency,
                                             image
                                         }
+                                        
                                     })
                                 }}
                             >

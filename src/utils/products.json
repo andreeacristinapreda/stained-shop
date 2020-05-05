@@ -8,6 +8,7 @@
                 "currency":"Ron",
                 "image": "https://i.imgur.com/MSLnyvw.jpg",
                 "difficulty": "usor",
+                "brand": "Da Vinci brushes",
                 "description": "Pensula de marime medie, par sintetic de calitate."
             },
             {
@@ -17,6 +18,7 @@
                 "currency":"Ron",
                 "image": "https://i.imgur.com/0kFlNdc.jpg",
                 "difficulty": "mediu",
+                "brand": "Gamblin",
                 "description": "Pensula lata perfecta pentru culori acrilice."
             },
             {
@@ -26,6 +28,7 @@
                 "currency":"Ron",
                 "image": "https://i.imgur.com/PmYnBo2.jpg",
                 "difficulty": "usor" ,
+                "brand": "Liquitex",
                 "description": "O colectie de pensule esentiale pentru orice artist!"
             }
         ],
@@ -42,6 +45,7 @@
                 "currency":"Ron",
                 "image":"https://i.imgur.com/gSxCjix.jpg",
                 "difficulty":"usor",
+                "brand": "Liquitex",
                 "description": "Tu aduci apa, iar noi iti oferim culorile potrivite pentru un rezultat incredibil!"
             },
             {
@@ -51,6 +55,7 @@
                 "currency":"Ron",
                 "image":"https://i.imgur.com/8zaMxtj.jpg",
                 "difficulty":"pro",
+                "brand": "Liquitex",
                 "description": "Pentru artistii rabdatori avem setul de vopseluri in ulei pastrate elegant intr-o cutie de lemn."
             }
         ],
@@ -67,6 +72,7 @@
                 "currency":"Ron",
                 "image":"https://i.imgur.com/MsTzySN.jpg",
                 "difficulty":"usor",
+                "brand": "Sharpie",
                 "description":"Creeaza ceva inedit cu markerele pentru orice tip de suprafata"
             },
             {
@@ -76,6 +82,7 @@
                 "currency":"Ron",
                 "image":"https://i.imgur.com/djsvIm2.jpg",
                 "difficulty":"pro",
+                "brand": "CopicCo",
                 "description":"Daca iti doresti sa dai viata desenelor tale faimoasele markere Copic iti vin in ajutor!"
             }
         ],
@@ -92,6 +99,7 @@
                 "currency":"Ron",
                 "image":"https://i.imgur.com/LBrSOSk.jpg",
                 "difficulty":"mediu",
+                "brand": "Fredrix",
                 "description": "Noi iti sustinem cratiile cu sevaletul din lemn, simplu de folosit, usor de depozitat."
             }
         ],
@@ -108,6 +116,7 @@
                 "currency":"Ron",
                 "image":"https://i.imgur.com/yofrKW3.jpg",
                 "difficulty":"mediu",
+                "brand": "Liquitex",
                 "description":"Calitate superioara a vopselei cat si a sistemului de pulverizare"
             }
         ],

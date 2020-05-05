@@ -8,6 +8,7 @@ import Page404 from './pages/Page404';
 import Category from './pages/Category';
 import Cart from './pages/Cart';
 import Favourites from './pages/favourites/Favourites';
+import Product from './pages/product/Product';
 import './utils/utility-classes.css';
 
 class App extends React.Component {
@@ -32,6 +33,7 @@ class App extends React.Component {
           <Route path='/category/:categoryName' component={Category}/>
           <Route path='/cart' component = {Cart}/>
           <Route path='/favourites' component = {Favourites}/>
+          <Route path='/product/:productId' component = {Product}/>
           <Route path='*' component={Page404}/>
         </Switch>
       </div>
