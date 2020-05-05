@@ -12,7 +12,7 @@ import * as firebase from 'firebase/app';
   }
 
   export function logInWithFacebook(){
-    return firebase.auth().signInWithPopup(provider2);
+      return firebase.auth().signInWithPopup(provider2);
   }
 
   export function signOut(){

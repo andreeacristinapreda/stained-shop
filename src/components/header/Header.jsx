@@ -1,11 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Logo from '../assets/images/logo.png';
-import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
+import Logo from '../../assets/images/logo.png';
+import { ReactComponent as ShoppingCart } from '../../assets/icons/shopping-cart.svg';
 import './Header.css';
 import {connect} from 'react-redux';
 
-import {logoutUser} from '../redux/actions/user';
+import {logoutUser} from '../../redux/user/userActions';
+import {ReactComponent as Favourites} from '../../assets/icons/heart-full.svg';
 
 
 function Header(props) {
@@ -27,6 +28,11 @@ function Header(props) {
                             ? <p className="logout h5" onClick={props.logout}>Delogare</p>
                             : <Link to="/login" className="h5">Logare</Link>
                         }
+                        
+                        <Link to="/favourites">
+                        <Favourites className="ml-2"/>
+                        </Link>
+
                         <Link to="/cart">
                         <ShoppingCart className="ml-2"/>
                         </Link>

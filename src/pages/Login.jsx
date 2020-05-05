@@ -5,7 +5,7 @@ import { ReactComponent as Google } from '../assets/icons/google.svg';
 import { ReactComponent as Facebook } from '../assets/icons/facebook.svg';
 import './Login.css'
 import {connect} from 'react-redux';
-import {loginUserGoogle, loginUserFacebook} from "../redux/actions/user";
+import {loginUserGoogle, loginUserFacebook} from "../redux/user/userActions";
 
 
 class Login extends React.Component {
@@ -35,7 +35,7 @@ class Login extends React.Component {
     
                 <button
                     className="btn btn-outline-dark d-flex align-items-center my-2 w-25"
-                    onClick={this.props.logInWithFacebook()}
+                    onClick={() => this.props.logInWithFacebook()}
                 >
                     <Facebook className="w-50 mr-3"/>
                     <span className="text-nowrap">Loghează-te cu Facebook</span>

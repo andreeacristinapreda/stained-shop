@@ -1,0 +1,8 @@
+/* Setam dimensiunea maxima pentru imagine in pagin de cart */
+.cart-page img {
+    max-height: 100px;
+}
+
+.cart-page svg {
+    cursor: pointer;
+}
