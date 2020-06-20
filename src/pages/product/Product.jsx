@@ -35,15 +35,15 @@ class Product extends Component {
         return (
         <Layout>
             <div className="product-page content-min-height container-fluid container-min-max-width">
-                    <h1 className="my-5 h2">{product.name}</h1>
+                    <h1 className="my-5 h2 ml-5">{product.name}</h1>
                     <div className="product-info d-flex">
                         <div className="image-wrapper d-flex mr-5">
                             <img src={product.image} alt="Product presentation"/>
                         </div>
                         <div className="product-details">
-                            <p className="h3 text-danger">{product.price} {product.currency}</p>
+                            <p className="h3 text-danger ml-5">{product.price} {product.currency}</p>
                             <button
-                                className="btn btn-dark mb-4 font-weight-bold"
+                                className="btn btn-dark mb-4 ml-5 font-weight-bold"
                                 onClick={() => {
                                     this.props.addToCart({
                                         product: {
@@ -58,10 +58,10 @@ class Product extends Component {
                             >
                                 Adaugă în coș
                             </button>
-                            <p><span className="font-weight-bold">Dificulate</span>: {product.difficulty}</p>
-                            <p><span className="font-weight-bold">Firma</span>: {product.brand}</p>
-                            <p className="font-weight-bold mb-1">Descriere:</p>
-                            <p>{product.description}</p>
+                            <p><span className="font-weight-bold ml-5">Dificulate</span>: {product.difficulty}</p>
+                            <p><span className="font-weight-bold ml-5">Firma</span>: {product.brand}</p>
+                            <p className="font-weight-bold mb-1 ml-5">Descriere:</p>
+                            <p className="ml-5">{product.description}</p>
                         </div>
                     </div>
                 </div>

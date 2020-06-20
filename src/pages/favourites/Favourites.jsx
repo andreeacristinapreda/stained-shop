@@ -8,10 +8,12 @@ import {addToCart} from "../../redux/cart/cartActions";
 
 function Favourites(props){
 
-const {favouriteProducts, removeFromFavourites, id, name, price, currency, image, addToCart} = props;
+const {favouriteProducts, removeFromFavourites} = props;
 
     return(
         <Layout>
+            <div className="container-fluid container-min-max-width
+                d-flex flex-column justify-content-center align-items-center">
             { favouriteProducts.length 
             ?<div>
                 <p>Produsele tale favorite:</p>
@@ -23,24 +25,7 @@ const {favouriteProducts, removeFromFavourites, id, name, price, currency, image
                                 <div onClick={()=>{removeFromFavourites({product:{id:product.id}})}}><Remove/></div>
                             </div>
                             <img className = "w-50 p-1" src={product.image} alt="Produs"/>
-                            <p className="w-50">{product.name}</p>
-                            <button 
-                                className="btn btn-outline-dark" 
-                                onClick={()=>{
-                                    addToCart({
-                                        product: {
-                                            id,
-                                            name, 
-                                            price,
-                                            currency,
-                                            image
-                                        }
-                                        
-                                    })
-                                }}
-                            >
-                                Adauga in cos
-                            </button>   
+                            <p className="w-50 font-weight-bold d-flex justify-content-center">{product.name}</p>
                         </div>
                 
                 })
@@ -55,6 +40,7 @@ const {favouriteProducts, removeFromFavourites, id, name, price, currency, image
                 <Link to="/"><button className="btn btn-outline-dark">Inapoi la home</button></Link>
             </div>
             }
+            </div>
         </Layout>
     );
 

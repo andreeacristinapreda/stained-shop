@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as Phone } from '../../assets/icons/phone.svg';
 import { ReactComponent as Mail } from '../../assets/icons/mail.svg';
 import { ReactComponent as GitHub } from '../../assets/icons/github.svg';
-//import { ReactComponent as LinkedIn } from '../assets/icons/linkedin.svg';
 import './Footer.css';
 
 function Footer() {
@@ -23,7 +22,7 @@ function Footer() {
                 <div>
                     <h3 className="h5">Contactează-mă:</h3>
                     <p className="mb-1">
-                        <a href="mailto:razvan.cirlugea@gmail.com">
+                        <a href="mailto:andreea.preda2000@yahoo.com">
                             <Mail className="mr-1 mb-1 footer-icon"/>
                             andreea.preda2000@yahoo.com
                         </a>
@@ -38,12 +37,6 @@ function Footer() {
                             andreeacristinapreda
                         </a>
                     </p>
-                    {/* <p className="m-0">
-                        <a href="https://www.linkedin.com/in/razvancirlugea/">
-                            <LinkedIn className="mr-1 footer-icon"/>
-                            razvancirlugea
-                        </a>
-                    </p> */}
                 </div>
             </div>
             <div className="text-center py-3">

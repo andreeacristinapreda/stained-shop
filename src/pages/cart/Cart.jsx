@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../components/layout/Layout';
+import Layout from '../../components/layout/Layout';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
-import {removeFromCart} from '../redux/cart/cartActions';
-import {ReactComponent as Remove} from '../assets/icons/remove.svg';
+import {removeFromCart} from '../../redux/cart/cartActions';
+import {ReactComponent as Remove} from '../../assets/icons/remove.svg';
 import './Cart.css';
 
 function Cart(props) {
