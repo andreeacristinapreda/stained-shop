@@ -1,16 +1,14 @@
-## JavaScript Advanced - Curs 7
+## Front-end part of an e-commerce application in React using JavaScript.
 
-Pentru a rula aceasta etapa (in linie de comanda):
+### Styling using Bootstrap. 
+### Consists of a home, category, product, cart and favourites page linked using React Routing.
+### Google and Facebook authentication with Firebase API.
+### Redux and Redux Thunk for state managing.
 
-#### 1. `git clone https://github.com/razvancir96/react-curs07.git`
-
-#### 2. `cd react-curs07`
-
-#### 3. `npm install` (posibil sa dureze)
-
-#### ATENTIE! 
-Pentru a functiona logarea cu Firebase, pornind de la fisierul `firebase.template.js`, din folderul configs, modificati propritatile obiectului `firebaseConfig` cu cele corespunzatoare aplicatiei voastre(din consola Firebase, Project Settings). De asemenea, fisierul trebuie redenumit `firebase.js` pentru a functiona.
-
-#### 4. `npm start`
-
+### The app has the following functionalities:
+#### renders a list of products by category, each category and product are accessible in different pages 
+#### add product to cart
+#### remove from cart
+#### add/remove items to/from a favourites page
+#### google and facebook login
 
