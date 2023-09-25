@@ -1,128 +1,127 @@
 {
-    "brushes" : {
-        "items":[
-            {
-                "id": 1,
-                "name": "Pensula par sintetic",
-                "price": 10,
-                "currency":"Ron",
-                "image": "https://i.imgur.com/MSLnyvw.jpg",
-                "difficulty": "usor",
-                "brand": "Da Vinci brushes",
-                "description": "Pensula de marime medie, par sintetic de calitate."
-            },
-            {
-                "id": 2,
-                "name":"Pensula lata",
-                "price": 30,
-                "currency":"Ron",
-                "image": "https://i.imgur.com/0kFlNdc.jpg",
-                "difficulty": "mediu",
-                "brand": "Gamblin",
-                "description": "Pensula lata perfecta pentru culori acrilice."
-            },
-            {
-                "id": 3,
-                "name": "Set 11 pensule",
-                "price": 275,
-                "currency":"Ron",
-                "image": "https://i.imgur.com/PmYnBo2.jpg",
-                "difficulty": "usor" ,
-                "brand": "Liquitex",
-                "description": "O colectie de pensule esentiale pentru orice artist!"
-            }
-        ],
-        "image": "https://i.imgur.com/aT2EMxG.jpg",
-        "name": "Pensule",
-        "description":"Tipuri diferite de pensule pentru tipuri diferite de artisti"
-    },
-    "paints" : {
-        "items":[
-            {
-                "id":4,
-                "name":"set watercolours",
-                "price":40,
-                "currency":"Ron",
-                "image":"https://i.imgur.com/gSxCjix.jpg",
-                "difficulty":"usor",
-                "brand": "Liquitex",
-                "description": "Tu aduci apa, iar noi iti oferim culorile potrivite pentru un rezultat incredibil!"
-            },
-            {
-                "id":5,
-                "name":"Vopseluri in ulei",
-                "price": 300,
-                "currency":"Ron",
-                "image":"https://i.imgur.com/8zaMxtj.jpg",
-                "difficulty":"pro",
-                "brand": "Liquitex",
-                "description": "Pentru artistii rabdatori avem setul de vopseluri in ulei pastrate elegant intr-o cutie de lemn."
-            }
-        ],
-        "image": "https://i.imgur.com/iTk7GfE.jpg",
-        "name": "Vopsea",
-        "description": "Exprima-ti creativitatea cu tipul tau preferat de vopsea!"
-    },
-    "markers" : {
-        "items":[
-            {
-                "id":6,
-                "name":"Markere permanente",
-                "price":100,
-                "currency":"Ron",
-                "image":"https://i.imgur.com/MsTzySN.jpg",
-                "difficulty":"usor",
-                "brand": "Sharpie",
-                "description":"Creeaza ceva inedit cu markerele pentru orice tip de suprafata"
-            },
-            {
-                "id":7,
-                "name":"Copic markers",
-                "price": 800,
-                "currency":"Ron",
-                "image":"https://i.imgur.com/djsvIm2.jpg",
-                "difficulty":"pro",
-                "brand": "CopicCo",
-                "description":"Daca iti doresti sa dai viata desenelor tale faimoasele markere Copic iti vin in ajutor!"
-            }
-        ],
-        "image": "https://i.imgur.com/r4CEm7h.jpg",
-        "name": "Markere",
-        "description": "Markere viu colorate pentru creatii inedite"
-    },
-    "easels" : {
-        "items":[
-            {
-                "id":8,
-                "name":"Sevalet lemn",
-                "price":240,
-                "currency":"Ron",
-                "image":"https://i.imgur.com/LBrSOSk.jpg",
-                "difficulty":"mediu",
-                "brand": "Fredrix",
-                "description": "Noi iti sustinem cratiile cu sevaletul din lemn, simplu de folosit, usor de depozitat."
-            }
-        ],
-        "image": "https://i.imgur.com/89eDaJ6.jpg",
-        "name": "Sevalete",
-        "description":"Tu pe ce pictezi? Avem sevalete special pentru a-ti usura munca"
-    },
-    "graffiti" : {
-        "items":[
-            {
-                "id":9,
-                "name":"Spray graffiti",
-                "price":30,
-                "currency":"Ron",
-                "image":"https://i.imgur.com/yofrKW3.jpg",
-                "difficulty":"mediu",
-                "brand": "Liquitex",
-                "description":"Calitate superioara a vopselei cat si a sistemului de pulverizare"
-            }
-        ],
-        "image": "https://i.imgur.com/SOTXIRJ.jpg",
-        "name": "Graffiti",
-        "description":"Exprima-ti creativitatea! Redescopera-te!"
-    }
-    
+  "brushes": {
+    "items": [
+      {
+        "id": 1,
+        "name": "Synthetic Hair Brush",
+        "price": 10,
+        "currency": "RON",
+        "image": "https://i.imgur.com/MSLnyvw.jpg",
+        "difficulty": "easy",
+        "brand": "Da Vinci brushes",
+        "description": "Medium-sized brush with high-quality synthetic bristles."
+      },
+      {
+        "id": 2,
+        "name": "Wide Brush",
+        "price": 30,
+        "currency": "RON",
+        "image": "https://i.imgur.com/0kFlNdc.jpg",
+        "difficulty": "medium",
+        "brand": "Gamblin",
+        "description": "Wide brush perfect for acrylic colors."
+      },
+      {
+        "id": 3,
+        "name": "11-Piece Brush Set",
+        "price": 275,
+        "currency": "RON",
+        "image": "https://i.imgur.com/PmYnBo2.jpg",
+        "difficulty": "easy",
+        "brand": "Liquitex",
+        "description": "A collection of essential brushes for any artist!"
+      }
+    ],
+    "image": "https://i.imgur.com/aT2EMxG.jpg",
+    "name": "Brushes",
+    "description": "Different types of brushes for different types of artists."
+  },
+  "paints": {
+    "items": [
+      {
+        "id": 4,
+        "name": "Watercolor Set",
+        "price": 40,
+        "currency": "RON",
+        "image": "https://i.imgur.com/gSxCjix.jpg",
+        "difficulty": "easy",
+        "brand": "Liquitex",
+        "description": "You bring the water, and we provide the perfect colors for incredible results!"
+      },
+      {
+        "id": 5,
+        "name": "Oil Paints",
+        "price": 300,
+        "currency": "RON",
+        "image": "https://i.imgur.com/8zaMxtj.jpg",
+        "difficulty": "pro",
+        "brand": "Liquitex",
+        "description": "For patient artists, we have oil paints set elegantly stored in a wooden box."
+      }
+    ],
+    "image": "https://i.imgur.com/iTk7GfE.jpg",
+    "name": "Paints",
+    "description": "Express your creativity with your favorite type of paint!"
+  },
+  "markers": {
+    "items": [
+      {
+        "id": 6,
+        "name": "Permanent Markers",
+        "price": 100,
+        "currency": "RON",
+        "image": "https://i.imgur.com/MsTzySN.jpg",
+        "difficulty": "easy",
+        "brand": "Sharpie",
+        "description": "Create something unique with markers for any surface."
+      },
+      {
+        "id": 7,
+        "name": "Copic Markers",
+        "price": 800,
+        "currency": "RON",
+        "image": "https://i.imgur.com/djsvIm2.jpg",
+        "difficulty": "pro",
+        "brand": "CopicCo",
+        "description": "If you want to bring your drawings to life, famous Copic markers are here to help!"
+      }
+    ],
+    "image": "https://i.imgur.com/r4CEm7h.jpg",
+    "name": "Markers",
+    "description": "Vibrantly colored markers for unique creations."
+  },
+  "easels": {
+    "items": [
+      {
+        "id": 8,
+        "name": "Wooden Easel",
+        "price": 240,
+        "currency": "RON",
+        "image": "https://i.imgur.com/LBrSOSk.jpg",
+        "difficulty": "medium",
+        "brand": "Fredrix",
+        "description": "We support your creations with the simple-to-use and easy-to-store wooden easel."
+      }
+    ],
+    "image": "https://i.imgur.com/89eDaJ6.jpg",
+    "name": "Easels",
+    "description": "What do you paint on? We have easels specially designed to ease your work."
+  },
+  "graffiti": {
+    "items": [
+      {
+        "id": 9,
+        "name": "Graffiti Spray",
+        "price": 30,
+        "currency": "RON",
+        "image": "https://i.imgur.com/yofrKW3.jpg",
+        "difficulty": "medium",
+        "brand": "Liquitex",
+        "description": "Superior quality of paint and spray system for graffiti artists."
+      }
+    ],
+    "image": "https://i.imgur.com/SOTXIRJ.jpg",
+    "name": "Graffiti",
+    "description": "Express your creativity! Rediscover yourself!"
+  }
 }

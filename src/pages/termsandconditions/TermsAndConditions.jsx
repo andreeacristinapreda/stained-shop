@@ -5,7 +5,7 @@ function TermsAndConditions() {
     return(
         <div>
             <Layout>
-                <h1>conditii</h1>
+                <h1>Terms and Conditions</h1>
             </Layout>
         </div>
     );

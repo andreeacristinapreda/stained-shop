@@ -11,16 +11,16 @@ function Footer() {
             <div className="container-fluid container-min-max-width
                             d-flex justify-content-between">
                 <div>
-                    <h3 className="h5">Link-uri rapide:</h3>
+                    <h3 className="h5">Learn about us:</h3>
                     <p className="mb-1">
-                        <Link to='/about'>Despre</Link>
+                        <Link to='/about'>About</Link>
                     </p>
                     <p className="m-0">
-                        <Link to='/terms-and-conditions'>Termeni și condiții</Link>
+                        <Link to='/terms-and-conditions'>Terms and Conditions</Link>
                     </p>
                 </div>
                 <div>
-                    <h3 className="h5">Contactează-mă:</h3>
+                    <h3 className="h5">Contact me:</h3>
                     <p className="mb-1">
                         <a href="mailto:andreea.preda2000@yahoo.com">
                             <Mail className="mr-1 mb-1 footer-icon"/>
@@ -30,7 +30,7 @@ function Footer() {
                     <p className="m-0"><Phone className="mr-1 footer-icon"/>+4077770000000</p>
                 </div>
                 <div>
-                    <h3 className="h5">Contactează-mă:</h3>
+                    <h3 className="h5">Contact me:</h3>
                     <p className="mb-1">
                         <a href="https://github.com/andreeacristinapreda">
                             <GitHub className="mr-1 mb-1 footer-icon"/>
@@ -40,7 +40,7 @@ function Footer() {
                 </div>
             </div>
             <div className="text-center py-3">
-                &copy; Preda Andreea, 2020
+                &copy; Preda Andreea, 2023
             </div>
         </footer>
     );

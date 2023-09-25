@@ -25,8 +25,8 @@ function Header(props) {
                     }
                     <div className="d-flex justify-content-end">
                         { props.user
-                            ? <p className="logout h5" onClick={props.logout}>Delogare</p>
-                            : <Link to="/login" className="h5">Logare</Link>
+                            ? <p className="logout h5" onClick={props.logout}>Log out</p>
+                            : <Link to="/login" className="h5">Login</Link>
                         }
                         
                         <Link to="/favourites">

@@ -23,9 +23,9 @@ function Cart(props) {
                     {cartProducts.length
                     ?<div className="w-100">
                         <div className="d-flex justify-content-between text-center h4 text-bold">
-                            <p className="w-25">Produs</p>
-                            <p className="w-25">Pret</p>
-                            <p className="w-25">Cantitate</p>
+                            <p className="w-25">Product</p>
+                            <p className="w-25">Price</p>
+                            <p className="w-25">Quantity</p>
                             <p className="w-25">Total</p>
                         </div>
                        {  cartProducts.map((cartProduct) => {
@@ -47,7 +47,7 @@ function Cart(props) {
                     }
                                 <div className="d-flex justify-content-end border-top">
                                         <div className="w-25 d-flex align-items-center justify-content-center">
-                                            <p className="my-4 text-center font-weight-bold">Total de plată: </p>
+                                            <p className="my-4 text-center font-weight-bold">Total payment: </p>
                                         </div>
                                         <div className="w-25">
                                             <p className="my-4 text-center">
@@ -57,8 +57,8 @@ function Cart(props) {
                                     </div>
                     </div>
                     :<div className="d-flex flex-column align-items-center">
-                        <p className="h3">Cosul este gol</p>
-                        <Link to="/"><button className="btn btn-outline-dark">Inapoi la home</button></Link>
+                        <p className="h3">Cart is empty!</p>
+                        <Link to="/"><button className="btn btn-outline-dark">Back to home page</button></Link>
                      </div>
                     }
                             </div>

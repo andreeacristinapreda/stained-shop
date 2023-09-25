@@ -36,8 +36,8 @@ const {favouriteProducts, removeFromFavourites} = props;
             </div>
                 
             :<div className="d-flex flex-column align-items-center">
-                <p className="h3">Nu aveti produse favorite</p>
-                <Link to="/"><button className="btn btn-outline-dark">Inapoi la home</button></Link>
+                <p className="h3">There's nothing on your list!</p>
+                <Link to="/"><button className="btn btn-outline-dark">Back to home page</button></Link>
             </div>
             }
             </div>
